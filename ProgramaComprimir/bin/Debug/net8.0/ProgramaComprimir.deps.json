@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "ProgramaComprimir/1.0.0": {
+        "dependencies": {
+          "ComprimirYDescomprimir": "1.0.0"
+        },
+        "runtime": {
+          "ProgramaComprimir.dll": {}
+        }
+      },
+      "ComprimirYDescomprimir/1.0.0": {
+        "runtime": {
+          "ComprimirYDescomprimir.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ProgramaComprimir/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ComprimirYDescomprimir/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
