@@ -38,17 +38,14 @@ namespace ComprimirYDescomprimir
             }
         } */
 
-        //constructor
         public ComprimirLibrary()
         {
             codeError = 0;
-            messageError = "";
-
+            messageError = "";
         }
 
 
-
-        //Funcionalidad
+
         public void ZipFolder(string carpeta, string archivoComprimido)
         {
             if (!Directory.Exists(carpeta))
@@ -93,7 +90,7 @@ namespace ComprimirYDescomprimir
             {
                 ZipFile.ExtractToDirectory(archivoComprimido, carpetaDestino);
                 CodeError = 0;
-                MessageError = "La descompresión se realizó correctamente.";
+                MessageError = string.Empty;
 
             }
             catch (Exception ex)
